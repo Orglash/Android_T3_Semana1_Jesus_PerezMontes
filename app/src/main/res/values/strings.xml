@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ExamenAndroidJesusPerez</string>
+    <string name="enemy_name_string">Nombre</string>
+    <string name="enemy_age_string">Edad</string>
+    <string name="enemy_deed_string">Ofensa</string>
+    <string name="enemy_add_string">Añadir enemigo</string>
+    <string name="err_msg_name">El nombre no puede estar vacío</string>
+    <string name="err_msg_age_empty">Debe introducir una edad</string>
+    <string name="err_msg_age">La edad debe ser un número positivo</string>
+    <string name="err_msg_deed">Debe introducir una edad</string>
+
+</resources>

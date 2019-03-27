@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/enemy_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:text="@string/enemy_name_string"
+        android:textAppearance="?attr/textAppearanceListItem"
+        tools:text="Alexander Pierrot" />
+
+    <TextView
+        android:id="@+id/enemy_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/enemy_name"
+        android:layout_below="@+id/enemy_name"
+        android:text="@string/enemy_age_string"
+        tools:text="33" />
+
+    <TextView
+        android:id="@+id/enemy_deed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/enemy_name"
+        android:layout_below="@+id/enemy_age"
+        android:text="@string/enemy_deed_string"
+        tools:text="Look at mah gf booty." />
+</RelativeLayout>
