@@ -9,9 +9,13 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class EnemiesAdapter extends ArrayAdapter<Enemy> {
+
     public EnemiesAdapter(@NonNull Context context, List<Enemy> objects) {
         super(context, 0, objects);
     }
@@ -41,6 +45,8 @@ public class EnemiesAdapter extends ArrayAdapter<Enemy> {
 
         return convertView;
     }
+
+
 }
 
 

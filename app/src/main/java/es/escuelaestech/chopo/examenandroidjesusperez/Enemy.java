@@ -1,5 +1,7 @@
 package es.escuelaestech.chopo.examenandroidjesusperez;
 
+import com.google.gson.Gson;
+
 import java.util.UUID;
 
 public class Enemy {
@@ -57,7 +59,5 @@ public class Enemy {
                 ", Cargo='" + eAge + '\'' +
                 '}';
     }
-
-
 }
 

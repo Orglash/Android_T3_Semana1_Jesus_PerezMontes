@@ -64,10 +64,29 @@
             android:layout_centerHorizontal="true"
             android:text="@string/enemy_add_string"
             android:textAllCaps="false" />
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_marginVertical="15dp"
+        android:layout_below="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save_list_string"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/load_btn"
+        android:layout_marginVertical="15dp"
+        android:layout_below="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/load_list_string"
+        android:textAllCaps="false" />
 
         <ListView
             android:id="@+id/enemies_list"
-            android:layout_below="@+id/add_btn"
+            android:layout_below="@+id/load_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:divider="@color/colorAccent"

@@ -6,7 +6,9 @@
     <string name="enemy_add_string">Añadir enemigo</string>
     <string name="err_msg_name">El nombre no puede estar vacío</string>
     <string name="err_msg_age_empty">Debe introducir una edad</string>
-    <string name="err_msg_age">La edad debe ser un número positivo</string>
-    <string name="err_msg_deed">Debe introducir una edad</string>
+    <string name="err_msg_age">La edad debe ser un número positivo menor de 150</string>
+    <string name="err_msg_deed">Debe introducir una ofensa</string>
+    <string name="save_list_string">Guardar lista</string>
+    <string name="load_list_string">Cargar lista</string>
 
 </resources>
